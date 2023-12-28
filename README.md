@@ -1,8 +1,5 @@
-# React + Vite
+This is a website portfolio to help employers find information about me easier.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Currently it is in it's beginning stages so there isn't much to see, but I will try to update it as fast as I can.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+As of this moment it is only using React as the frontend language, but I have plans to use Java, and more specifically Maven and SpringBoot, to add the backend portion.
