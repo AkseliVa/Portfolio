@@ -1,4 +1,4 @@
-import { Outlet, Link } from "react-router-dom";
+import { Outlet, NavLink } from "react-router-dom";
 import { SocialIcon } from "react-social-icons";
 
 export default function Root() {
@@ -10,16 +10,16 @@ export default function Root() {
           <nav>
             <ul>
               <li>
-                <Link to="/">Homepage</Link>
+                <NavLink to="/">Homepage</NavLink>
               </li>
               <li>
-                <Link to="/About">About me</Link>
+                <NavLink to="/About">About me</NavLink>
               </li>
               <li>
-                <Link to="/Projects">Projects</Link>
+                <NavLink to="/Projects">Projects</NavLink>
               </li>
               <li>
-                <Link to="/Contact">Contact</Link>
+                <NavLink to="/Contact">Contact</NavLink>
               </li>
             </ul>
           </nav>

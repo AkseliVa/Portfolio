@@ -79,32 +79,3 @@ body {
   background: hsl(224, 98%, 58%);
   color: white;
 }
-
-#detail {
-  flex: 1;
-  padding: 2rem 4rem;
-  width: 100%;
-}
-
-#contact {
-  max-width: 40rem;
-  display: flex;
-}
-
-#contact h1 {
-  font-size: 2rem;
-  font-weight: 700;
-  margin: 0;
-  line-height: 1.2;
-}
-
-#contact a[href*="twitter"] {
-  display: flex;
-  font-size: 1.5rem;
-  color: #3992ff;
-  text-decoration: none;
-}
-
-#contact a[href*="twitter"]:hover {
-  text-decoration: underline;
-}
