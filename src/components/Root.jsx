@@ -5,8 +5,7 @@ export default function Root() {
     return (
       <>
         <div id="sidebar">
-          <h2>Pages</h2>
-          <h1><SocialIcon url="https://www.linkedin.com/in/akseli-vartiainen-724a57262/" /></h1>
+          <h1>Pages</h1>
           <div>    
           <nav>
             <ul>
@@ -22,7 +21,12 @@ export default function Root() {
             </ul>
           </nav>
         </div>
+        <div id="links">
+          <SocialIcon id="link" label="LinkedIn" url="https://www.linkedin.com/in/akseli-vartiainen-724a57262/" />
+          <SocialIcon id="link" label="GitHub" url="https://github.com/AkseliVa" />
         </div>
+        </div>
+        
         <Outlet />
       </>
     );

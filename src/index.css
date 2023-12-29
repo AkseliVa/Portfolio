@@ -28,16 +28,28 @@ body {
   padding-right: 2rem;
 }
 
-#sidebar h1 {
+#sidebar h2 {
   font-size: 1rem;
   font-weight: 500;
   display: flex;
   align-items: center;
   margin: 0;
-  padding: 1rem 2rem;
+  padding: 1rem 3rem;
   border-top: 1px solid #e3e3e3;
   order: 1;
   line-height: 1;
+}
+
+#links {
+  display: block;
+  flex-direction: column;
+  padding: 1rem 3rem;
+  margin-top: auto;
+}
+
+#link {
+  margin-bottom: 1rem;
+  margin-right: 1rem;
 }
 
 #sidebar nav {
