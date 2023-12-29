@@ -1,10 +1,12 @@
 import { Outlet, Link } from "react-router-dom";
+import { SocialIcon } from "react-social-icons";
 
 export default function Root() {
     return (
       <>
         <div id="sidebar">
-          <h1>Pages</h1>
+          <h2>Pages</h2>
+          <h1><SocialIcon url="https://www.linkedin.com/in/akseli-vartiainen-724a57262/" /></h1>
           <div>    
           <nav>
             <ul>
