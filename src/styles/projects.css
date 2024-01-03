@@ -1,3 +1,11 @@
-h1 {
+.projects-container h1 {
+    margin: 10px;
+}
+
+.projects-container h2 {
+    margin: 10px;
+}
+  
+.projects-container p {
     margin: 10px;
 }
