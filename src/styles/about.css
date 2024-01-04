@@ -1,3 +1,7 @@
-h1 {
+.about-container h1 {
+    margin: 10px;
+}
+  
+.about-container p {
     margin: 10px;
 }

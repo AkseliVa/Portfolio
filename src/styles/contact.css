@@ -1,3 +1,7 @@
-h1 {
+.contact-container h1 {
+    margin: 10px;
+}
+  
+.contact-container p {
     margin: 10px;
 }
