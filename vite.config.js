@@ -1,6 +1,6 @@
 // vite.config.js
 import { defineConfig } from 'vite';
-import { terser } from 'rollup-plugin-terser';
+import { terser } from 'terser';
 
 export default defineConfig({
   build: {
