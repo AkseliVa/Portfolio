@@ -8,7 +8,7 @@ function Homepage() {
       
       <p>Here you will find some general information about me, my passions and hobbies.</p>
       
-      <p>more detailed information about my projects and also my contact information.</p>
+      <p>More detailed information about my projects can be found in the 'Projects'-page, and also my contact information in the 'Contact'-page.</p>
       
       <p>The project is still quite new so it is in it's early stages.</p>
     </div>
